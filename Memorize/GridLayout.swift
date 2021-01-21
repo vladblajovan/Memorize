@@ -12,7 +12,7 @@ struct GridLayout {
     private var size: CGSize
     private var rowCount: Int = 0
     private var columnCount: Int = 0
-    
+
     init(itemCount: Int, nearAspectRatio desiredAspectRatio: Double = 1, in size: CGSize) {
         self.size = size
         // if our size is zero width or height or the itemCount is not > 0
@@ -39,7 +39,7 @@ struct GridLayout {
         rowCount = bestLayout.rowCount
         columnCount = bestLayout.columnCount
     }
-    
+
     var itemSize: CGSize {
         if rowCount == 0 || columnCount == 0 {
             return CGSize.zero
@@ -50,7 +50,7 @@ struct GridLayout {
             )
         }
     }
-    
+
     func location(ofItemAt index: Int) -> CGPoint {
         if rowCount == 0 || columnCount == 0 {
             return CGPoint.zero
