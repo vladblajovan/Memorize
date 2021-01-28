@@ -1,0 +1,5 @@
+
+# implicitly
+  disabled_rules:
+  - line_length
+  - identifier_name

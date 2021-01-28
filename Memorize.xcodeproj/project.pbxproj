@@ -15,6 +15,7 @@
 		F5550D6624EAFD9C00CF8B7A /* Array+Only.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5550D6524EAFD9C00CF8B7A /* Array+Only.swift */; };
 		F5550D6824EBFC6400CF8B7A /* Pie.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5550D6724EBFC6400CF8B7A /* Pie.swift */; };
 		F5550D6A24EC025D00CF8B7A /* Cardify.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5550D6924EC025D00CF8B7A /* Cardify.swift */; };
+		F58C3A1A25C2C46C00E49AB3 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = F58C3A1925C2C46C00E49AB3 /* .swiftlint.yml */; };
 		F5CED79324E24B99002FE33C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CED79224E24B99002FE33C /* AppDelegate.swift */; };
 		F5CED79524E24B99002FE33C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CED79424E24B99002FE33C /* SceneDelegate.swift */; };
 		F5CED79724E24B99002FE33C /* EmojiMemoryGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CED79624E24B99002FE33C /* EmojiMemoryGameView.swift */; };
@@ -51,6 +52,7 @@
 		F5550D6524EAFD9C00CF8B7A /* Array+Only.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Only.swift"; sourceTree = "<group>"; };
 		F5550D6724EBFC6400CF8B7A /* Pie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pie.swift; sourceTree = "<group>"; };
 		F5550D6924EC025D00CF8B7A /* Cardify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cardify.swift; sourceTree = "<group>"; };
+		F58C3A1925C2C46C00E49AB3 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		F5CED78F24E24B99002FE33C /* Memorize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memorize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5CED79224E24B99002FE33C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5CED79424E24B99002FE33C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 		F5CED78624E24B99002FE33C = {
 			isa = PBXGroup;
 			children = (
+				F58C3A1925C2C46C00E49AB3 /* .swiftlint.yml */,
 				F5CED79124E24B99002FE33C /* Memorize */,
 				F5CED7A824E24B9B002FE33C /* MemorizeTests */,
 				F5CED7B324E24B9B002FE33C /* MemorizeUITests */,
@@ -265,6 +268,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F58C3A1A25C2C46C00E49AB3 /* .swiftlint.yml in Resources */,
 				F5CED79F24E24B9B002FE33C /* LaunchScreen.storyboard in Resources */,
 				F5CED79C24E24B9B002FE33C /* Preview Assets.xcassets in Resources */,
 				F5CED79924E24B9B002FE33C /* Assets.xcassets in Resources */,
